@@ -1,0 +1,91 @@
+/*
+ * MWS Admin v2.1 - Main Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+ */
+
+@import url("shared.css");
+@import url("core.css");
+@import url("panels.css");
+@import url("table.css");
+@import url("gallery.css");
+@import url("button.css");
+@import url("statistic.css");
+@import url("form.css");
+@import url("error.css");
+@import url("tweaks.css");
+@import url("plugins.css");
+@import url("lt-ie9.css");
+
+
+
+
+
+
+
+
+
+/*  DATA TABLES *************/
+
+
+
+
+/* Tables */
+
+.table > tbody > tr > td, 
+.table > tbody > tr > th,
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th,
+.table td {
+    padding: 15px 8px!important;
+}
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #dce1e4;
+    box-shadow: none!important;
+    font-size: 13px;
+    padding: 6px 10px!important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+    border: 1px solid #bdc5c9;
+    background: #fff;
+    outline: 0;
+}
+
+.dataTables_wrapper .dataTables_length select:focus {
+    outline: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #5f5f5f!important;
+    border: 1px solid #ebebeb;
+    background: #f1f1f1!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button:focus {
+    color: #5f5f5f!important;
+    border: 1px solid transparent;
+    background: #f7f7f7!important;
+    box-shadow: none;
+}
+
+tr.group,
+tr.group:hover {
+    background-color: #ddd !important;
+}
